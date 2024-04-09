@@ -27,7 +27,10 @@
 .pt-30{
     padding-top: 30px;
 }
-.col{
+.col-33{
+    width: 100%;
+}
+.col-66{
     width: 100%;
 }
 .bg-lightblue {
@@ -57,5 +60,13 @@
     }
     .menu-m{
         display: none;
+    }
+}
+@media screen and (min-width: 480px) {
+    .col-66{
+        width: calc(66%);
+    }
+    .col-33{
+        width: 33%;
     }
 }
