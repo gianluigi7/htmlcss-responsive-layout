@@ -76,8 +76,9 @@ body{
     display:none
 }
 .content-j{
-    width: 80%;
+    width: 100%;
     padding-top: 40px;
+    padding-left: 40px;
     margin: 0 auto;
     align-items: center;
 
@@ -88,6 +89,7 @@ body{
 }
  .content-img img{
     width: 100%;
+    display: block;
  }
 .px-30 {
     padding: 0 30px;
@@ -116,6 +118,7 @@ body{
     color: var(--gray);
     font-size: 18px;
     font-weight: 600;
+    line-height: 1.7;
 }
 #jumbotron button {
     background-color: var(--blu);
@@ -124,6 +127,12 @@ body{
     padding: 5px 10px;
     border: none;
     margin: 35px 0;
+}
+#planning img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    
 }
 
  
@@ -242,6 +251,9 @@ body{
         }
         .content-img{
             width: 50%;
+            max-width: 250px;
+            display: flex;
+            align-self: flex-end;
         }
         #planning .px-30{
             padding: 0 100px;
