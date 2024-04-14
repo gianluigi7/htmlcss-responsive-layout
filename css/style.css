@@ -189,17 +189,31 @@ body{
 
   }
   #benefits .col {
-    height: 200px;
     background-color: white;
     margin-bottom: 30px;
     border-radius: 10px;
     width: 100%;
+  }
+  #benefits button {
+    background-color: var(--violet);
+    color: white;
+    padding: 11px 32px;
+    margin: 24px;
+    border-radius: 20%;
+    border: none;
+
+  }
+  #benefits p {
+    color: var(--gray);
+    line-height: 1.7;
+    padding: 0 20px;
   }
   #about .col {
     height: 200px;
     background-color: rgba(233, 13, 13, 0.747);
     width: 100%;
     margin-bottom: 15px;
+    
   }
   footer {
     background-color: #333333;
@@ -239,12 +253,13 @@ body{
     text-align: center;
 }
 #benefits h3 {
-    font-size: 50px;
-    padding: 20px;
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 35px;
     color: var(--violet);
 }
 #benefits h4 {
-    font-size: 50px;
+    font-size: 20px;
     padding: 20px;
     color: var(--violet);
 }
