@@ -209,8 +209,7 @@ body{
     padding: 0 20px;
   }
   #about .col {
-    height: 200px;
-    background-color: rgba(233, 13, 13, 0.747);
+    
     width: 100%;
     margin-bottom: 15px;
     
@@ -263,6 +262,46 @@ body{
     padding: 20px;
     color: var(--violet);
 }
+#about {
+    padding: 35px 0;
+}
+#about h2 {
+    color: var(--violet);
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+#about p {
+    margin-top: 25px;
+    padding: 0 20px;
+    color: black;
+    line-height: 2;
+}
+#about img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+#about button {
+    background-color: var(--violet);
+    color: white;
+    padding: 11px 32px;
+    margin: 24px;
+    border-radius: 20%;
+    border: none; 
+}
+.fa-solid.fa-quote-left {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    z-index: 1;
+    color: var(--violet);
+    font-size: 50px;
+}
+
+
 
  /* RESPONSIVE */
 
@@ -298,6 +337,7 @@ body{
         }
         #about .col.c2 {
             width: 40%;
+            position: relative;
         }
         
         .container {
